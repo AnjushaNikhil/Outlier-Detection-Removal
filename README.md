@@ -16,3 +16,21 @@ Assuming the data follows a normal distribution, outliers can be detected using 
 
 Z-Score Method:
 The z-score method is a specific application of the normal distribution approach. To detect outliers using z-scores, calculate the z-score for each data point based on the mean and standard deviation of the dataset. Data points with z-scores exceeding a predefined threshold (e.g., ±3) are considered outliers and can be removed. In summary, these methods provide different approaches to detect and remove outliers from a dataset, and the choice of method depends on factors such as the distribution of the data and the specific requirements of the analysis.
+
+HYPOTHESIS TESTING
+Hypothesis testing is a statistical method used to make inferences about population parameters based on sample data. Here are some key points about hypothesis testing:
+
+Formulating Hypotheses:
+Hypothesis testing begins with the formulation of two hypotheses: the null hypothesis (H0) and the alternative hypothesis (H1 or Ha). The null hypothesis typically represents the status quo or a default assumption about the population parameter, while the alternative hypothesis represents the claim or effect we are trying to test.
+
+Choosing a Test Statistic:
+The choice of test statistic depends on the nature of the data and the hypothesis being tested. Common test statistics include the z-score, t-statistic, chi-square statistic, and F-statistic, among others.
+
+Selecting the Significance Level:
+The significance level (denoted by α) represents the probability of rejecting the null hypothesis when it is actually true. Commonly used significance levels include 0.05, 0.01, and 0.10.
+
+Conducting the Test:
+Based on the chosen test statistic and significance level, we calculate the probability of obtaining the observed sample results (or more extreme results) if the null hypothesis is true. This probability is known as the p-value.
+
+Interpreting the Results:
+If the p-value is less than or equal to the chosen significance level (α), we reject the null hypothesis in favor of the alternative hypothesis. If the p-value is greater than the significance level, we fail to reject the null hypothesis. This does not necessarily mean that the null hypothesis is true; it simply means that there is not enough evidence to reject it based on the observed data.
