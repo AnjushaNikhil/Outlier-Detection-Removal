@@ -17,7 +17,7 @@ Assuming the data follows a normal distribution, outliers can be detected using 
 Z-Score Method:
 The z-score method is a specific application of the normal distribution approach. To detect outliers using z-scores, calculate the z-score for each data point based on the mean and standard deviation of the dataset. Data points with z-scores exceeding a predefined threshold (e.g., ±3) are considered outliers and can be removed. In summary, these methods provide different approaches to detect and remove outliers from a dataset, and the choice of method depends on factors such as the distribution of the data and the specific requirements of the analysis.
 
-HYPOTHESIS TESTING
+# HYPOTHESIS TESTING
 Hypothesis testing is a statistical method used to make inferences about population parameters based on sample data. Here are some key points about hypothesis testing:
 
 Formulating Hypotheses:
